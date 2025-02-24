@@ -33,3 +33,9 @@ body {
 img {
   max-width: 100%;
 }
+
+.active {
+  border: 2px solid black;
+  background: red;
+  color: white;
+}
