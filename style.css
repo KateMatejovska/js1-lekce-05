@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+.header,
+.footer {
+  min-height: 100px;
+  padding: 20px;
+  margin-block: 20px;
+  background: dodgerblue;
+  border-radius: 4px;
+}
+
+.cards {
+  margin-block: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  flex: 1 1 33.3%;
+  min-height: 200px;
+  padding: 20px;
+  background: lightskyblue;
+  border-radius: 4px;
+}
+
+img {
+  max-width: 100%;
+}
